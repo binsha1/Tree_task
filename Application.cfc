@@ -9,5 +9,11 @@
     <cfset this.scriptProtect="all">
     
     <cfset this.loginStorage = "session"> 
-    <cfset this.datasource="location_list">       
+    <cfset this.datasource="location_list">   
+    <cfset this.dlist=""> 
+    <cffunction name="OnApplicationStart" returntype="boolean" access="public">
+            
+        <cfreturn true>
+    </cffunction>
+        
 </cfcomponent>
